@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.s4nt1.petagram.R;
+import com.s4nt1.petagram.adapter.FotosAdaptador;
 import com.s4nt1.petagram.adapter.MascotaAdaptador;
 import com.s4nt1.petagram.pojo.Mascota;
 
@@ -43,9 +44,9 @@ public class PerfilFragment extends Fragment {
 
         return v;
     }
-    public MascotaAdaptador adaptador;
+    public FotosAdaptador adaptador;
     public void  inicilizarAdaptador(){
-        MascotaAdaptador adaptador = new MascotaAdaptador(mascotas);
+        FotosAdaptador adaptador = new FotosAdaptador(mascotas);
         listaMascotas.setAdapter(adaptador);
     }
 

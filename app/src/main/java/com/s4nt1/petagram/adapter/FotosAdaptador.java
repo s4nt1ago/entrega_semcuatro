@@ -47,9 +47,9 @@ public class FotosAdaptador extends RecyclerView.Adapter<FotosAdaptador.FotosVie
 
         public FotosViewHolder(View itemView){
             super(itemView);
-            imagen = (ImageView) itemView.findViewById(R.id.imagen);
-            nombre = (TextView) itemView.findViewById(R.id.name);
-            cantidad_likes = (TextView) itemView.findViewById(R.id.cantidad_likes);
+            imagen = (ImageView) itemView.findViewById(R.id.img);
+            nombre = (TextView) itemView.findViewById(R.id.nam);
+            cantidad_likes = (TextView) itemView.findViewById(R.id.can_likes);
         }
 
 
